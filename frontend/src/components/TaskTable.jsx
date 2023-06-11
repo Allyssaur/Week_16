@@ -33,7 +33,7 @@ function TaskTable() {
           dispatch(reset())
       }
       
-  }, [user, navigate, isError, message, dispatch])
+  }, [])
 
   return (
       <><div className="intro">
